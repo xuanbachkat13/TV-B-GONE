@@ -61,7 +61,7 @@ Mọi sự đóng góp về mã Hex của các dòng TV nội địa (Casper, As
 * **Discord**: `bch4x.lc96`
 * **Github**: [xuanbachkat13](https://github.com/xuanbachkat13)
 
-😤Nếu gặp lỗi,vui lòng tạo Pull Request hoặc đăng lên Issues
+😤Nếu gặp lỗi,vui lòng tạo Pull Request hoặc đăng lên Issues  
 ✨Và nhớ cho repo này của mình một Stars nhé!
 ---
 *Dự án này được tạo ra cho mục đích học tập và nghiên cứu về giao thức IR*
