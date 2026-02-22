@@ -7,7 +7,6 @@
 Một thiết bị TV-B-GONE tối giản dựa trên **ESP32 DevKit V1**, có khả năng tắt hầu hết các dòng TV phổ biến (Sony, Samsung, LG, Panasonic, NEC,...) bằng cách quét chuỗi mã Power IR liên tục.
 
 ## ✨ Tính năng nổi bật
-* ⚡ **Tối ưu hóa phản hồi**: Sử dụng State Machine (Non-blocking) giúp nút bấm phản hồi tức thì, không bị delay bởi lệnh IR.
 * 🌍 **Hỗ trợ đa vùng**: Chuyển đổi linh hoạt giữa các bộ mã **EA (Châu Á)** và **EU (Châu Âu)** thông qua Switch gạt.
 * 🛠 **Dễ dàng mở rộng**: Cấu trúc dữ liệu dạng `struct` giúp việc thêm mã Hex của các hãng TV mới cực kỳ đơn giản.
 * 🚨 **Chỉ báo trực quan**: LED trạng thái (GPIO 2) thông báo khi đang phát tín hiệu.
@@ -47,13 +46,6 @@ Một thiết bị TV-B-GONE tối giản dựa trên **ESP32 DevKit V1**, có k
 
 ---
 
-## 📂 Cấu trúc mã nguồn
-* `struct IRCode`: Định nghĩa giao thức, địa chỉ và số bit.
-* `sendCode()`: Hàm xử lý gửi lệnh tổng quát cho mọi giao thức.
-* `loop()`: Quản lý trạng thái bằng biến thời gian `millis()`, đảm bảo tính đa nhiệm.
-
----
-
 ## 🤝 Đóng góp (Contribution)
 Mọi sự đóng góp về mã Hex của các dòng TV nội địa (Casper, Asanzo,...) đều được hoan nghênh.
 
@@ -63,5 +55,7 @@ Mọi sự đóng góp về mã Hex của các dòng TV nội địa (Casper, As
 
 😤Nếu gặp lỗi,vui lòng tạo đăng lên Issues nha,mình sẽ fix sớm:)))  
 ✨Và nhớ cho repo này của mình một Stars nhé!
+
 ---
+
 *Dự án này được tạo ra cho mục đích học tập và nghiên cứu về giao thức IR*
